@@ -8,22 +8,22 @@
 
 # BrandFullNameInternal is used for some registry and file system values
 # instead of BrandFullName and typically should not be modified.
-!define BrandFullNameInternal "Firefox Developer Edition"
-!define BrandShortName        "Firefox Developer Edition"
-!define BrandFullName         "Firefox Developer Edition"
-!define CompanyName           "mozilla.org"
-!define URLInfoAbout          "https://www.mozilla.org"
-!define HelpLink              "https://support.mozilla.org"
+!define BrandFullNameInternal "CryFox Developer Edition"
+!define BrandShortName        "CryFox Developer Edition"
+!define BrandFullName         "CryFox Developer Edition"
+!define CompanyName           "cryfox.org"
+!define URLInfoAbout          "https://www.cryfox.org"
+!define HelpLink              "https://www.cryfox.org/support"
 
-!define URLStubDownloadX86 "https://download.mozilla.org/?os=win&lang=${AB_CD}&product=firefox-devedition-latest"
-!define URLStubDownloadAMD64 "https://download.mozilla.org/?os=win64&lang=${AB_CD}&product=firefox-devedition-latest"
-!define URLStubDownloadAArch64 "https://download.mozilla.org/?os=win64-aarch64&lang=${AB_CD}&product=firefox-devedition-latest"
-!define URLManualDownload "https://www.mozilla.org/${AB_CD}/firefox/installer-help/?channel=aurora&installer_lang=${AB_CD}"
-!define URLSystemRequirements "https://www.mozilla.org/firefox/system-requirements/"
+!define URLStubDownloadX86 "https://download.cryfox.org/?os=win&lang=${AB_CD}&product=cryfox-devedition-latest"
+!define URLStubDownloadAMD64 "https://download.cryfox.org/?os=win64&lang=${AB_CD}&product=cryfox-devedition-latest"
+!define URLStubDownloadAArch64 "https://download.cryfox.org/?os=win64-aarch64&lang=${AB_CD}&product=cryfox-devedition-latest"
+!define URLManualDownload "https://www.cryfox.org/${AB_CD}/firefox/installer-help/?channel=aurora&installer_lang=${AB_CD}"
+!define URLSystemRequirements "https://www.cryfox.org/firefox/system-requirements/"
 !define Channel "aurora"
 
 # The installer's certificate name and issuer expected by the stub installer
-!define CertNameDownload   "Mozilla Corporation"
+!define CertNameDownload   "CryFox"
 !define CertIssuerDownload "DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1"
 
 # Dialog units are used so the UI displays correctly with the system's DPI

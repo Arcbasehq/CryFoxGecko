@@ -13,10 +13,10 @@ pref("app.update.interval", 86400); // 24 hours
 pref("app.update.promptWaitTime", 86400);
 // URL user can browse to manually if for some reason all update installation
 // attempts fail.
-pref("app.update.url.manual", "https://nightly.mozilla.org");
+pref("app.update.url.manual", "https://www.cryfox.org");
 // A default value for the "More information about this update" link
 // supplied in the "An update is available" page of the update wizard.
-pref("app.update.url.details", "https://nightly.mozilla.org");
+pref("app.update.url.details", "https://www.cryfox.org");
 
 // The number of days a binary is permitted to be old
 // without checking for an update.  This assumes that
@@ -30,3 +30,20 @@ pref("app.update.badgeWaitTime", 0);
 // Number of usages of the web console.
 // If this is less than 5, then pasting code into the web console is disabled
 pref("devtools.selfxss.count", 5);
+
+// Disable telemetry
+pref("toolkit.telemetry.enabled", false);
+pref("toolkit.telemetry.server", "");
+pref("toolkit.telemetry.reportingpolicy.firstRun", false);
+pref("toolkit.telemetry.prompted", 2);
+pref("toolkit.telemetry.rejected", true);
+pref("browser.newtabpage.activity-stream.telemetry", false);
+pref("extensions.shield-recipe-client.eligible", false);
+pref("app.shield.optoutstudies.enabled", false);
+pref("datareporting.healthreport.uploadEnabled", false);
+pref("datareporting.healthreport.service.enabled", false);
+pref("app.reporting.enabled", false);
+
+// Disable Glean
+pref("glean.enabled", false);
+pref("telemetry.fog.test.localhost_port", -1);
