@@ -715,7 +715,7 @@ const FIREFOX_LABS_MIGRATION =
 add_task(async function test_migration_firefoxLabsEnrollments() {
   async function doTest(features) {
     info(
-      `Testing NimbusMigrations migrates Firefox Labs features ${JSON.stringify(features)}`
+      `Testing NimbusMigrations migrates CryFox Labs features ${JSON.stringify(features)}`
     );
     const prefs = features.map(getEnabledPrefForFeature);
     for (const pref of prefs) {
@@ -800,7 +800,7 @@ add_task(async function test_migration_firefoxLabsEnrollments_falseTargeting() {
   // We don't need to test that targeting evaluation itself works, so we'll just
   // test with hardcoded targeting.
   info(
-    `Testing NimbusMigration does not migrate Firefox Labs features when targeting is false`
+    `Testing NimbusMigration does not migrate CryFox Labs features when targeting is false`
   );
   const prefs = Object.keys(LABS_MIGRATION_FEATURE_MAP).map(
     getEnabledPrefForFeature

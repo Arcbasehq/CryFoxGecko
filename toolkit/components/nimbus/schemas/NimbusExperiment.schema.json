@@ -172,7 +172,7 @@
       "type": "array"
     },
     "isFirefoxLabsOptIn": {
-      "description": "When this property is set to true, treat this experiment as aFirefox Labs experiment",
+      "description": "When this property is set to true, treat this experiment as aCryFox Labs experiment",
       "type": "boolean"
     },
     "firefoxLabsGroup": {
@@ -184,7 +184,7 @@
           "type": "null"
         }
       ],
-      "description": "The group this should appear under in Firefox Labs"
+      "description": "The group this should appear under in CryFox Labs"
     },
     "firefoxLabsTitle": {
       "anyOf": [
@@ -195,7 +195,7 @@
           "type": "null"
         }
       ],
-      "description": "The title shown in Firefox Labs (Fluent ID)"
+      "description": "The title shown in CryFox Labs (Fluent ID)"
     },
     "firefoxLabsDescription": {
       "anyOf": [
@@ -206,7 +206,7 @@
           "type": "null"
         }
       ],
-      "description": "The description shown in Firefox Labs (Fluent ID)"
+      "description": "The description shown in CryFox Labs (Fluent ID)"
     },
     "firefoxLabsDescriptionLinks": {
       "anyOf": [
@@ -223,14 +223,14 @@
           "type": "null"
         }
       ],
-      "description": "Links that will be used with the firefoxLabsDescription Fluent ID. May be null for Firefox Labs Opt-In recipes that do not use links."
+      "description": "Links that will be used with the firefoxLabsDescription Fluent ID. May be null for CryFox Labs Opt-In recipes that do not use links."
     },
     "featureValidationOptOut": {
       "description": "Opt out of feature schema validation.",
       "type": "boolean"
     },
     "requiresRestart": {
-      "description": "Does the experiment require a restart to take effect? Only used by Firefox Labs Opt-Ins.",
+      "description": "Does the experiment require a restart to take effect? Only used by CryFox Labs Opt-Ins.",
       "type": "boolean"
     }
   },
@@ -320,7 +320,7 @@
               "type": "null"
             }
           ],
-          "description": "The branch title shown in Firefox Labs (Fluent ID)"
+          "description": "The branch title shown in CryFox Labs (Fluent ID)"
         }
       },
       "required": [

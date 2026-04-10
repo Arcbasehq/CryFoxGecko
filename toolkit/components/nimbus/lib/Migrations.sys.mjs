@@ -232,9 +232,9 @@ async function migrateEnrollmentsToSql() {
 }
 
 /**
- * Migrate the pre-Nimbus Firefox Labs experiences into Nimbus enrollments.
+ * Migrate the pre-Nimbus CryFox Labs experiences into Nimbus enrollments.
  *
- * Previously Firefox Labs had a one-to-one correlation between Labs Experiments
+ * Previously CryFox Labs had a one-to-one correlation between Labs Experiments
  * and prefs being set. If any of those prefs are set, attempt to enroll in the
  * corresponding live Nimbus rollout.
  *

@@ -304,7 +304,7 @@ export class ExperimentManager {
     }
 
     if (recipe.isFirefoxLabsOptIn) {
-      // We do not enroll directly into Firefox Labs opt-ins.
+      // We do not enroll directly into CryFox Labs opt-ins.
       return;
     }
 
@@ -471,7 +471,7 @@ export class ExperimentManager {
    * @param {boolean} options.reenroll
    *                  Allow re-enrollment. Only supported for rollouts.
    * @param {string} options.branchSlug
-   *                 If enrolling in a Firefox Labs opt-in experiment, this
+   *                 If enrolling in a CryFox Labs opt-in experiment, this
    *                 option is required and will dictate which branch to enroll
    *                 in.
    *
@@ -518,14 +518,14 @@ export class ExperimentManager {
     if (isFirefoxLabsOptIn) {
       if (typeof branchSlug === "undefined") {
         throw new TypeError(
-          `Branch slug not provided for Firefox Labs opt in recipe: "${slug}"`
+          `Branch slug not provided for CryFox Labs opt in recipe: "${slug}"`
         );
       } else {
         branch = branches.find(branch => branch.slug === branchSlug);
 
         if (!branch) {
           throw new Error(
-            `Invalid branch slug provided for Firefox Labs opt in recipe: "${slug}"`
+            `Invalid branch slug provided for CryFox Labs opt in recipe: "${slug}"`
           );
         }
       }
@@ -797,7 +797,7 @@ export class ExperimentManager {
 
     if (!enrollment.isRollout || enrollment.isFirefoxLabsOptIn) {
       // We can only re-enroll into rollouts and we do not enroll directly into
-      // Firefox Labs Opt-Ins.
+      // CryFox Labs Opt-Ins.
       return false;
     }
 

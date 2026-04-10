@@ -313,7 +313,7 @@ add_task(async function test_onRecipe_isFirefoxLabsOptin_recipe() {
   Assert.equal(
     manager.optInRecipes[0],
     optInRecipe,
-    "should add the recipe to OptInRecipes list if recipe is firefox labs opt-in"
+    "should add the recipe to OptInRecipes list if recipe is CryFox Labs opt-in"
   );
   Assert.equal(
     manager.enroll.calledOnceWith(recipe, "test"),

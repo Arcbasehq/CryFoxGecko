@@ -116,14 +116,14 @@ add_task(async function test_enroll_optin_recipe_branch_selection() {
   // Call with missing optInRecipeBranchSlug argument
   await Assert.rejects(
     manager.enroll(optInRecipe, "test"),
-    /Branch slug not provided for Firefox Labs opt in recipe: "opt-in-recipe"/,
+    /Branch slug not provided for CryFox Labs opt in recipe: "opt-in-recipe"/,
     "Should not enroll an opt-in recipe with missing optInBranchSlug"
   );
 
   // Call with incorrect optInRecipeBranchSlug for the optin recipe
   await Assert.rejects(
     manager.enroll(optInRecipe, "test", { branchSlug: "invalid-slug" }),
-    /Invalid branch slug provided for Firefox Labs opt in recipe: "opt-in-recipe"/,
+    /Invalid branch slug provided for CryFox Labs opt in recipe: "opt-in-recipe"/,
     "Should not enroll an opt-in recipe with invalid branch slug"
   );
 
