@@ -1,4 +1,5 @@
-# CryFox
+![Cryfox Browser](./docs/readme/readme-banner.svg)
+
 
 A privacy-focused, secure, and fast web browser based on Firefox.
 
