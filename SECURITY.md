@@ -1,22 +1,42 @@
-# Firefox Security FAQ
+# Security Policy
 
-General information about security at Mozilla is available at [https://www.mozilla.org/en-US/security/](https://www.mozilla.org/en-US/security/).
+## Supported Versions
 
-## I want to report a security bug\!
+We recommend using the latest stable release of CryFox. Older versions may not receive security updates.
 
-Please report Firefox bugs in our Bugzilla instance by using [our bug bounty form](https://bugzilla.mozilla.org/form.client.bounty). Be aware that your e-mail address will be made public. See our [Bugzilla etiquette](https://bugzilla.mozilla.org/page.cgi?id=etiquette.html) for more.
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest  | :white_check_mark: |
+| Older   | :x:                |
 
-## Do you have a bounty program?
+## Reporting Security Vulnerabilities
 
-We have two:
+If you discover a security vulnerability in CryFox, please report it responsibly:
 
-* Firefox browsers fall under the [Firefox bug bounty program](https://www.mozilla.org/en-US/security/client-bug-bounty/) which is handled on Bugzilla.
-* The general [Mozilla Security Bug Bounty Program](https://www.mozilla.org/en-US/security/bug-bounty/) also covers other products and services and is on HackerOne.
+1. **Do NOT** create a public GitHub issue for security vulnerabilities
+2. Email security details privately to the maintainers
+3. Include as much detail as possible:
+   - Description of the vulnerability
+   - Steps to reproduce
+   - Potential impact
+   - Any suggested fixes (optional)
 
-## I have a question\! Who can help?
+## Our Commitment
 
-Questions regarding security bugs or our bounty programs can be directed to [security@mozilla.com](mailto:security@mozilla.com). An encryption key for sending [GPG encrypted mails](https://www.mozilla.org/en-US/security/#pgpkey) is also available.
+- We will acknowledge reports within 48 hours
+- We will provide regular updates on progress
+- We will credit reporters (with permission) in the security advisory
+- We follow responsible disclosure practices
 
-## Where can I find security advisories?
+## Security Focus Areas
 
-We publish [Firefox security advisories](https://www.mozilla.org/en-US/security/known-vulnerabilities/firefox/) for all released versions of Firefox Desktop. For other products including Firefox for iOS and Android please refer to the [overview](https://www.mozilla.org/en-US/security/advisories/).
+As a privacy-focused browser, CryFox prioritizes:
+- Data protection and minimal data collection
+- Secure browsing (HTTPS, DNS-over-HTTPS)
+- Tracker blocking
+- Memory safety
+- Sandboxing
+
+## Note
+
+This project is a fork of Firefox and may inherit security updates from Mozilla's security team. We appreciate your help in keeping CryFox secure!
