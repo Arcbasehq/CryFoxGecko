@@ -5,14 +5,14 @@
 :root {
   --tabstrip-inner-border: 1px solid color-mix(in srgb, currentColor 25%, transparent);
   --tabstrip-min-height: calc(var(--tab-min-height) + 2 * var(--tab-block-margin));
-  --tab-min-height: 36px;
+  --tab-min-height: 32px;
   --tab-group-suggestions-loading-animation-color-1: color-mix(in srgb, currentColor 5%, transparent);
   --tab-group-suggestions-loading-animation-color-2: color-mix(in srgb, currentColor 35%, transparent);
   &[uidensity="compact"] {
-    --tab-min-height: 29px;
+    --tab-min-height: 26px;
   }
   &[uidensity="touch"] {
-    --tab-min-height: 41px;
+    --tab-min-height: 36px;
   }
   --tab-group-label-height: max(1.5em, var(--tab-min-height) - 14px);
   --tab-group-label-padding: 4px;
@@ -27,10 +27,10 @@
   --tab-pinned-margin-inline-expanded: var(--space-xsmall);
   --tab-pinned-min-width-expanded: calc(var(--tab-pinned-expanded-background-width) + 2 * var(--tab-pinned-margin-inline-expanded));
   --tab-pinned-container-margin-inline-expanded: var(--space-small);
-  --tab-border-radius: 4px;
+  --tab-border-radius: 0;
   --tab-overflow-clip-margin: 2px;
   --tab-close-button-padding: 6px;
-  --tab-block-margin: 4px;
+  --tab-block-margin: 0;
   --tab-icon-end-margin: 5.5px;
   --tab-label-line-height: 1.7;
   --tab-loading-fill: #0a84ff;
@@ -44,7 +44,7 @@
   &[lwt-tab-selected="dark"] {
     --tab-selected-color-scheme: dark;
   }
-  --tab-selected-shadow: var(--box-shadow-tab);
+  --tab-selected-shadow: none;
   --tab-outline: 1px solid var(--tab-outline-color);
   --tab-outline-color: transparent;
   --tab-outline-offset: -1px;
@@ -120,6 +120,7 @@
 #tabbrowser-tabs {
   /* Overriding tabbox.css */
   border: 0;
+  padding-top: 0;
 
   /* Use a bigger flex value than the searchbar to prevent it from
    * taking all the toolbar space. */
@@ -841,11 +842,14 @@
 }
 
 .tab-background {
-  border-radius: var(--tab-border-radius);
-  margin-block: var(--tab-block-margin);
+  border-radius: 0;
+  margin-block: 0;
   min-height: var(--tab-min-height);
   outline: var(--tab-outline);
   outline-offset: var(--tab-outline-offset);
+  border-top: 3px solid #0a84ff;
+  box-shadow: none;
+  background-color: transparent;
 
   .tabbrowser-tab:hover > .tab-stack > &:not([selected], [multiselected]) {
     background-color: var(--tab-hover-background-color);
@@ -854,7 +858,7 @@
 
   &:is([selected], [multiselected]) {
     background-color: var(--tab-selected-bgcolor);
-    box-shadow: var(--tab-selected-shadow);
+    box-shadow: none;
     outline-color: var(--tab-selected-outline-color);
   }
 

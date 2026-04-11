@@ -2,11 +2,11 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-## Firefox and Mozilla Brand
+## CryFox Brand
 ##
-## Firefox and Mozilla must be treated as a brand.
+## CryFox must be treated as a brand.
 ##
-## They cannot be:
+## It cannot be:
 ## - Transliterated.
 ## - Translated.
 ##

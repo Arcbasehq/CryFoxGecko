@@ -685,7 +685,7 @@ main section {
   background-size: 64px;
 }
 .logo-and-wordmark .wordmark {
-  background: url("chrome://branding/content/firefox-wordmark.svg") no-repeat center center;
+  background: url("chrome://branding/content/about-wordmark.svg") no-repeat center center;
   background-size: 105px;
   -moz-context-properties: fill;
   display: inline-block;

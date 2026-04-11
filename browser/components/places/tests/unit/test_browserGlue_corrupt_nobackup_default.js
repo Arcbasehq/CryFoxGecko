@@ -41,9 +41,5 @@ add_task(async function () {
     parentGuid: PlacesUtils.bookmarks.menuGuid,
     index: 0,
   });
-
-  let chanTitle = AppConstants.NIGHTLY_BUILD
-    ? "Firefox Nightly Resources"
-    : "Mozilla Firefox";
   Assert.equal(bm.title, chanTitle, "Default bookmarks folder restored.");
 });

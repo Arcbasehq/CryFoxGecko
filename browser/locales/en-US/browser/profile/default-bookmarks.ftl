@@ -9,14 +9,14 @@
 default-bookmarks-title = Bookmarks
 default-bookmarks-heading = Bookmarks
 
-# Firefox links folder name
-default-bookmarks-firefox-heading = Mozilla Firefox
+# CryFox links folder name
+default-bookmarks-firefox-heading = CryFox
 
 # link title for https://www.mozilla.org/firefox/help/
 default-bookmarks-firefox-get-help = Get Help
 
 # link title for https://www.mozilla.org/firefox/customize/
-default-bookmarks-firefox-customize = Customize Firefox
+default-bookmarks-firefox-customize = Customize CryFox
 
 # link title for https://www.mozilla.org/contribute/
 default-bookmarks-firefox-community = Get Involved
@@ -24,17 +24,17 @@ default-bookmarks-firefox-community = Get Involved
 # link title for https://www.mozilla.org/about/
 default-bookmarks-firefox-about = About Us
 
-# Firefox Nightly links folder name
-default-bookmarks-nightly-heading = Firefox Nightly Resources
+# CryFox Nightly links folder name
+default-bookmarks-nightly-heading = CryFox Nightly Resources
 
 # Nightly builds only, link title for https://blog.nightly.mozilla.org/
-default-bookmarks-nightly-blog = Firefox Nightly blog
+default-bookmarks-nightly-blog = CryFox Nightly blog
 
 # Nightly builds only, link title for https://bugzilla.mozilla.org/
-default-bookmarks-bugzilla = Mozilla Bug Tracker
+default-bookmarks-bugzilla = CryFox Bug Tracker
 
 # Nightly builds only, link title for https://developer.mozilla.org/
-default-bookmarks-mdn = Mozilla Developer Network
+default-bookmarks-mdn = CryFox Developer Network
 
 # Nightly builds only, link title for https://addons.mozilla.org/firefox/addon/nightly-tester-tools/
 default-bookmarks-nightly-tester-tools = Nightly Tester Tools

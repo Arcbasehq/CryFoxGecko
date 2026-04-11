@@ -1281,8 +1281,8 @@ def moz_app_basename(value, target_is_android):
     if value:
         return value[0]
     if target_is_android:
-        return "Fennec"
-    return "Firefox"
+        return "CryFox"
+    return "CryFox"
 
 
 set_config(

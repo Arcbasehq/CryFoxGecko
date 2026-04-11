@@ -50,3 +50,20 @@ pref("app.reporting.enabled", false);
 // Disable Glean
 pref("glean.enabled", false);
 pref("telemetry.fog.test.localhost_port", -1);
+
+// Disable non-essential features
+pref("browser.firefoxView.enabled", false);
+pref("browser.firefoxView.next.enabled", false);
+pref("browser.vpn_promo.enabled", false);
+pref("featureFlags.welcomeScreen", false);
+pref("browser.shopping.noticeDismissed", true);
+pref("browser.shopping.experience2023.enabled", false);
+
+// Disable Pocket and Discovery Stream
+pref("browser.newtabpage.activity-stream.discoverystream.enabled", false);
+pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+pref("extensions.pocket.enabled", false);
+
+// Disable Firefox Accounts
+pref("identity.fxaccounts.enabled", false);
+pref("services.sync.enabled", false);

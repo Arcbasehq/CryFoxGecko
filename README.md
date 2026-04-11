@@ -1,18 +1,35 @@
-![Firefox Browser](./docs/readme/readme-banner.svg)
+# CryFox
 
-[Firefox](https://firefox.com/) is a fast, reliable and private web browser from the non-profit [Mozilla organization](https://mozilla.org/).
+A privacy-focused, secure, and fast web browser based on Firefox.
 
-### Contributing
+## Features
 
-To learn how to contribute to Firefox read the [Firefox Contributors' Quick Reference document](https://firefox-source-docs.mozilla.org/contributing/contribution_quickref.html).
+- **Privacy First** - Blocks trackers by default, no data collection
+- **No Telemetry** - All telemetry and data collection disabled
+- **No Accounts** - Firefox Accounts and Sync completely disabled
+- **Clean Onboarding** - Simple, privacy-focused welcome experience
+- **Default Bookmarks** - Pre-configured with privacy-focused sites (DuckDuckGo, Brave Search, Privacy Tools, Startpage)
+- **Customized Search Engines** - Privacy-focused search engines only (DuckDuckGo, Ecosia, Qwant)
 
-We use [bugzilla.mozilla.org](https://bugzilla.mozilla.org/) as our issue tracker, please file bugs there.
+## Privacy
 
-### Resources
+CryFox is designed with your privacy in mind:
+- No telemetry or data collection
+- No Firefox Accounts integration
+- No third-party data sharing
+- Enhanced tracking protection
+- Built-in privacy tools
 
-* [Firefox Source Docs](https://firefox-source-docs.mozilla.org/) is our primary documentation repository
-* Nightly development builds can be downloaded from [Firefox Nightly page](https://www.mozilla.org/firefox/channel/desktop/#nightly)
+## Building
 
-If you have a question about developing Firefox, and can't find the solution
-on [Firefox Source Docs](https://firefox-source-docs.mozilla.org/), you can try asking your question on Matrix at
-chat.mozilla.org in the [Introduction channel](https://chat.mozilla.org/#/room/#introduction:mozilla.org).
+```bash
+./mach build
+```
+
+## Contributing
+
+This is a Firefox fork. For contribution guidelines, refer to Mozilla's documentation.
+
+## License
+
+This project is licensed under the Mozilla Public License 2.0. See the LICENSE file for details.

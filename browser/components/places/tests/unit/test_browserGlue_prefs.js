@@ -121,9 +121,6 @@ add_task(async function test_restore() {
     index: 0,
   });
 
-  let chanTitle = AppConstants.NIGHTLY_BUILD
-    ? "Firefox Nightly Resources"
-    : "Mozilla Firefox";
   Assert.equal(bm.title, chanTitle, "Default bookmarks folder restored.");
 
   // Check preferences have been reverted.
@@ -158,9 +155,6 @@ add_task(async function test_restore_import() {
     index: 0,
   });
 
-  let chanTitle = AppConstants.NIGHTLY_BUILD
-    ? "Firefox Nightly Resources"
-    : "Mozilla Firefox";
   Assert.equal(bm.title, chanTitle, "Default bookmarks folder restored.");
 
   // Check preferences have been reverted.

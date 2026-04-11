@@ -15,17 +15,17 @@
 ## https://mozilla-l10n.github.io/styleguides/mozilla_general/#brands-copyright-and-trademark
 
 -facebook-container-brand-name = Facebook Container
--monitor-brand-name = Firefox Monitor
+-monitor-brand-name = CryFox Monitor
 -monitor-brand-short-name = Monitor
--mozmonitor-brand-name = Mozilla Monitor
+-mozmonitor-brand-name = CryFox Monitor
 -pocket-brand-name = Pocket
--send-brand-name = Firefox Send
--screenshots-brand-name = Firefox Screenshots
--mozilla-vpn-brand-name = Mozilla VPN
--profiler-brand-name = Firefox Profiler
--translations-brand-name = Firefox Translations
--focus-brand-name = Firefox Focus
--relay-brand-name = Firefox Relay
+-send-brand-name = CryFox Send
+-screenshots-brand-name = CryFox Screenshots
+-mozilla-vpn-brand-name = CryFox VPN
+-profiler-brand-name = CryFox Profiler
+-translations-brand-name = CryFox Translations
+-focus-brand-name = CryFox Focus
+-relay-brand-name = CryFox Relay
 -relay-brand-short-name = Relay
 -fakespot-brand-name = Fakespot
 -solo-ai-brand-name = Solo
@@ -33,23 +33,23 @@
 # Note the name of the website is capitalized.
 -fakespot-website-name = Fakespot.com
 
-# The particle "by" can be localized, "Fakespot" and "Mozilla" should not be localized or transliterated.
--fakespot-brand-full-name = Fakespot by Mozilla
+# The particle "by" can be localized, "Fakespot" and "CryFox" should not be localized or transliterated.
+-fakespot-brand-full-name = Fakespot by CryFox
 
-# “Suggest” can be localized, “Firefox” must be treated as a brand
+# "Suggest" can be localized, "CryFox" must be treated as a brand
 # and kept in English.
--firefox-suggest-brand-name = Firefox Suggest
+-firefox-suggest-brand-name = CryFox Suggest
 
-# ”Home" can be localized, “Firefox” must be treated as a brand
+# "Home" can be localized, "CryFox" must be treated as a brand
 # and kept in English.
--firefox-home-brand-name = Firefox Home
+-firefox-home-brand-name = CryFox Home
 
-# View" can be localized, “Firefox” must be treated as a brand
+# "View" can be localized, "CryFox" must be treated as a brand
 # and kept in English.
--firefoxview-brand-name = Firefox View
+-firefoxview-brand-name = CryFox View
 
 # CryFox Labs is the name for a page in Settings to allow users to learn about
 # experimental and in-development features, and turn those features on and off.
-# The "Labs" portion can be localized, “Firefox” must be treated as a brand
+# The "Labs" portion can be localized, "CryFox" must be treated as a brand
 # and kept in English.
 -firefoxlabs-brand-name = CryFox Labs
